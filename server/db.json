@@ -5,6 +5,12 @@
       "password": "$2a$10$m//x7DBqS2nekTEVfxqSQ.oAi31aGCJX9NSUVpjLNYXussfLFPv2i",
       "name": "ronee",
       "id": 1
+    },
+    {
+      "email": "bruno@gmail.com",
+      "password": "$2a$10$wtTDIcQw/rx618CSD4Gd9.giC2ZfzWJzYS6KBdqwTrvHNp4GAVTKC",
+      "name": "bruno",
+      "id": 2
     }
   ],
   "conversations": [
