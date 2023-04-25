@@ -11,6 +11,12 @@
       "password": "$2a$10$wtTDIcQw/rx618CSD4Gd9.giC2ZfzWJzYS6KBdqwTrvHNp4GAVTKC",
       "name": "bruno",
       "id": 2
+    },
+    {
+      "email": "goolgool@gmail.com",
+      "password": "$2a$10$.jmHe.PkxXABsUsuFSwOzeX1jPPny72bI5/00Tp8CL7HSzKezgBm.",
+      "name": "goolgool",
+      "id": 3
     }
   ],
   "conversations": [
@@ -25,30 +31,51 @@
         },
         {
           "email": "bruno@gmail.com",
+          "password": "$2a$10$wtTDIcQw/rx618CSD4Gd9.giC2ZfzWJzYS6KBdqwTrvHNp4GAVTKC",
           "name": "bruno",
           "id": 2
         }
       ],
-      "message": "How are you?",
-      "timestamp": 1661976143678
+      "message": "what's up my naughty boy",
+      "timestamp": 1682429669308
     },
     {
-      "id": 2,
-      "participants": "bruno@gmail.com-newardevil@gmail.com",
+      "participants": "goolgool@gmail.com-newardevil@gmail.com",
       "users": [
         {
-          "email": "bruno@gmail.com",
-          "name": "bruno",
-          "id": 2
+          "email": "goolgool@gmail.com",
+          "name": "goolgool",
+          "id": 3
         },
         {
           "email": "newardevil@gmail.com",
+          "password": "$2a$10$m//x7DBqS2nekTEVfxqSQ.oAi31aGCJX9NSUVpjLNYXussfLFPv2i",
           "name": "ronee",
           "id": 1
         }
       ],
-      "message": "How do you do?",
-      "timestamp": 1661976143678
+      "message": "hi dad",
+      "timestamp": 1682430214380,
+      "id": 2
+    },
+    {
+      "participants": "goolgool@gmail.com-bruno@gmail.com",
+      "users": [
+        {
+          "email": "goolgool@gmail.com",
+          "name": "goolgool",
+          "id": 3
+        },
+        {
+          "email": "bruno@gmail.com",
+          "password": "$2a$10$wtTDIcQw/rx618CSD4Gd9.giC2ZfzWJzYS6KBdqwTrvHNp4GAVTKC",
+          "name": "bruno",
+          "id": 2
+        }
+      ],
+      "message": "hi little bro",
+      "timestamp": 1682430263333,
+      "id": 3
     }
   ],
   "messages": [
