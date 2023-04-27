@@ -1,4 +1,5 @@
 import { apiSlice } from "../api/apiSlice";
+import { messagesApi } from "../messages/messagesApi";
 
 export const conversationsApi = apiSlice.injectEndpoints({
     endpoints: (builder) => ({
@@ -14,19 +15,67 @@ export const conversationsApi = apiSlice.injectEndpoints({
         }),
         // add conversation
         addConversation: builder.mutation({
-            query: (data) => ({
+            query: ({ sender, data }) => ({
                 url: '/conversations',
                 method: 'POST',
                 body: data,
             }),
+            async onQueryStarted(arg, { queryFulfilled, dispatch }) {
+                const conversation = await queryFulfilled;
+
+                if (conversation?.data?.id) {
+
+                    // silent entry to message table
+                    const users = arg.data.users;
+                    const senderUser = users.find(
+                        (user) => user.email === arg.sender
+                    );
+                    const receiverUser = users.find(
+                        (user) => user.email !== arg.sender
+                    );
+
+                    dispatch(messagesApi.endpoints.addMessage.initiate({
+                        conversationId: conversation?.data?.id,
+                        sender: senderUser,
+                        receiver: receiverUser,
+                        message: arg.data.message,
+                        timestamp: arg.data.timestamp,
+                    }))
+                }
+            }
         }),
         // editconversation
         editConversation: builder.mutation({
-            query: ({ id, data }) => ({
+            query: ({ id, data, sender }) => ({
                 url: `/conversations/${id}`,
                 method: 'PATCH',
                 body: data,
             }),
+            // edit conversation
+            async onQueryStarted(arg, { queryFulfilled, dispatch }) {
+                const conversation = await queryFulfilled;
+                console.log(conversation);
+                if (conversation?.data?.id) {
+
+                    // silent entry to message table
+                    const users = arg.data.users;
+                    const senderUser = users.find(
+                        (user) => user.email === arg.sender
+                    );
+                    const receiverUser = users.find(
+                        (user) => user.email !== arg.sender
+                    );
+
+                    dispatch(messagesApi.endpoints.addMessage.initiate({
+                        conversationId: conversation?.data?.id,
+                        sender: senderUser,
+                        receiver: receiverUser,
+                        message: arg.data.message,
+                        timestamp: arg.data.timestamp,
+                    })
+                    );
+                }
+            }
         }),
     }),
 });

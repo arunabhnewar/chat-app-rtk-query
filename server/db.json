@@ -21,31 +21,12 @@
   ],
   "conversations": [
     {
-      "id": 1,
-      "participants": "newardevil@gmail.com-bruno@gmail.com",
+      "participants": "bruno@gmail.com-newardevil@gmail.com",
       "users": [
-        {
-          "email": "newardevil@gmail.com",
-          "name": "ronee",
-          "id": 1
-        },
         {
           "email": "bruno@gmail.com",
-          "password": "$2a$10$wtTDIcQw/rx618CSD4Gd9.giC2ZfzWJzYS6KBdqwTrvHNp4GAVTKC",
           "name": "bruno",
           "id": 2
-        }
-      ],
-      "message": "what's up my naughty boy",
-      "timestamp": 1682429669308
-    },
-    {
-      "participants": "goolgool@gmail.com-newardevil@gmail.com",
-      "users": [
-        {
-          "email": "goolgool@gmail.com",
-          "name": "goolgool",
-          "id": 3
         },
         {
           "email": "newardevil@gmail.com",
@@ -54,8 +35,27 @@
           "id": 1
         }
       ],
-      "message": "hi dad",
-      "timestamp": 1682430214380,
+      "message": "i am good pop",
+      "timestamp": 1682602758327,
+      "id": 1
+    },
+    {
+      "participants": "newardevil@gmail.com-goolgool@gmail.com",
+      "users": [
+        {
+          "email": "newardevil@gmail.com",
+          "name": "ronee",
+          "id": 1
+        },
+        {
+          "email": "goolgool@gmail.com",
+          "password": "$2a$10$.jmHe.PkxXABsUsuFSwOzeX1jPPny72bI5/00Tp8CL7HSzKezgBm.",
+          "name": "goolgool",
+          "id": 3
+        }
+      ],
+      "message": "where are you now",
+      "timestamp": 1682602725319,
       "id": 2
     },
     {
@@ -73,14 +73,13 @@
           "id": 2
         }
       ],
-      "message": "hi little bro",
-      "timestamp": 1682430263333,
+      "message": "yummi",
+      "timestamp": 1682602835131,
       "id": 3
     }
   ],
   "messages": [
     {
-      "id": 1,
       "conversationId": 1,
       "sender": {
         "email": "newardevil@gmail.com",
@@ -89,14 +88,66 @@
       },
       "receiver": {
         "email": "bruno@gmail.com",
+        "password": "$2a$10$wtTDIcQw/rx618CSD4Gd9.giC2ZfzWJzYS6KBdqwTrvHNp4GAVTKC",
         "name": "bruno",
         "id": 2
       },
-      "message": "Hello",
-      "timestamp": 1661976143557
+      "message": "hey my boy bruno",
+      "timestamp": 1682602618019,
+      "id": 1
     },
     {
-      "id": 2,
+      "conversationId": 2,
+      "sender": {
+        "email": "newardevil@gmail.com",
+        "name": "ronee",
+        "id": 1
+      },
+      "receiver": {
+        "email": "goolgool@gmail.com",
+        "password": "$2a$10$.jmHe.PkxXABsUsuFSwOzeX1jPPny72bI5/00Tp8CL7HSzKezgBm.",
+        "name": "goolgool",
+        "id": 3
+      },
+      "message": "hey my boy goolgool",
+      "timestamp": 1682602645944,
+      "id": 2
+    },
+    {
+      "conversationId": 1,
+      "sender": {
+        "email": "newardevil@gmail.com",
+        "name": "ronee",
+        "id": 1
+      },
+      "receiver": {
+        "email": "bruno@gmail.com",
+        "password": "$2a$10$wtTDIcQw/rx618CSD4Gd9.giC2ZfzWJzYS6KBdqwTrvHNp4GAVTKC",
+        "name": "bruno",
+        "id": 2
+      },
+      "message": "what are you doing now?",
+      "timestamp": 1682602708143,
+      "id": 3
+    },
+    {
+      "conversationId": 2,
+      "sender": {
+        "email": "newardevil@gmail.com",
+        "name": "ronee",
+        "id": 1
+      },
+      "receiver": {
+        "email": "goolgool@gmail.com",
+        "password": "$2a$10$.jmHe.PkxXABsUsuFSwOzeX1jPPny72bI5/00Tp8CL7HSzKezgBm.",
+        "name": "goolgool",
+        "id": 3
+      },
+      "message": "where are you now",
+      "timestamp": 1682602725319,
+      "id": 4
+    },
+    {
       "conversationId": 1,
       "sender": {
         "email": "bruno@gmail.com",
@@ -105,11 +156,47 @@
       },
       "receiver": {
         "email": "newardevil@gmail.com",
+        "password": "$2a$10$m//x7DBqS2nekTEVfxqSQ.oAi31aGCJX9NSUVpjLNYXussfLFPv2i",
         "name": "ronee",
         "id": 1
       },
-      "message": "How are you?",
-      "timestamp": 1661976143678
+      "message": "i am good pop",
+      "timestamp": 1682602758327,
+      "id": 5
+    },
+    {
+      "conversationId": 3,
+      "sender": {
+        "email": "bruno@gmail.com",
+        "name": "bruno",
+        "id": 2
+      },
+      "receiver": {
+        "email": "goolgool@gmail.com",
+        "password": "$2a$10$.jmHe.PkxXABsUsuFSwOzeX1jPPny72bI5/00Tp8CL7HSzKezgBm.",
+        "name": "goolgool",
+        "id": 3
+      },
+      "message": "hey bro, grandma cooking chicken",
+      "timestamp": 1682602796287,
+      "id": 6
+    },
+    {
+      "conversationId": 3,
+      "sender": {
+        "email": "goolgool@gmail.com",
+        "name": "goolgool",
+        "id": 3
+      },
+      "receiver": {
+        "email": "bruno@gmail.com",
+        "password": "$2a$10$wtTDIcQw/rx618CSD4Gd9.giC2ZfzWJzYS6KBdqwTrvHNp4GAVTKC",
+        "name": "bruno",
+        "id": 2
+      },
+      "message": "yummi",
+      "timestamp": 1682602835131,
+      "id": 7
     }
   ]
 }
