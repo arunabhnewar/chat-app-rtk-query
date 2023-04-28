@@ -30,13 +30,12 @@
         },
         {
           "email": "newardevil@gmail.com",
-          "password": "$2a$10$m//x7DBqS2nekTEVfxqSQ.oAi31aGCJX9NSUVpjLNYXussfLFPv2i",
           "name": "ronee",
           "id": 1
         }
       ],
-      "message": "i am good pop",
-      "timestamp": 1682602758327,
+      "message": "can you give me some money, my pocket is empty",
+      "timestamp": 1682653804578,
       "id": 1
     },
     {
@@ -67,13 +66,12 @@
         },
         {
           "email": "bruno@gmail.com",
-          "password": "$2a$10$wtTDIcQw/rx618CSD4Gd9.giC2ZfzWJzYS6KBdqwTrvHNp4GAVTKC",
           "name": "bruno",
           "id": 2
         }
       ],
-      "message": "yummi",
-      "timestamp": 1682602835131,
+      "message": "so much pain",
+      "timestamp": 1682655173449,
       "id": 3
     }
   ],
@@ -244,6 +242,86 @@
       "message": "ok",
       "timestamp": 1682652756263,
       "id": 10
+    },
+    {
+      "conversationId": 1,
+      "sender": {
+        "email": "newardevil@gmail.com",
+        "name": "ronee",
+        "id": 1
+      },
+      "receiver": {
+        "email": "bruno@gmail.com",
+        "name": "bruno",
+        "id": 2
+      },
+      "message": "where are you going?",
+      "timestamp": 1682653642045,
+      "id": 11
+    },
+    {
+      "conversationId": 1,
+      "sender": {
+        "email": "bruno@gmail.com",
+        "name": "bruno",
+        "id": 2
+      },
+      "receiver": {
+        "email": "newardevil@gmail.com",
+        "name": "ronee",
+        "id": 1
+      },
+      "message": "alex's house",
+      "timestamp": 1682653755164,
+      "id": 12
+    },
+    {
+      "conversationId": 1,
+      "sender": {
+        "email": "bruno@gmail.com",
+        "name": "bruno",
+        "id": 2
+      },
+      "receiver": {
+        "email": "newardevil@gmail.com",
+        "name": "ronee",
+        "id": 1
+      },
+      "message": "can you give me some money, my pocket is empty",
+      "timestamp": 1682653804578,
+      "id": 13
+    },
+    {
+      "conversationId": 3,
+      "sender": {
+        "email": "bruno@gmail.com",
+        "name": "bruno",
+        "id": 2
+      },
+      "receiver": {
+        "email": "goolgool@gmail.com",
+        "name": "goolgool",
+        "id": 3
+      },
+      "message": "bro, what is your condition now",
+      "timestamp": 1682655127817,
+      "id": 14
+    },
+    {
+      "conversationId": 3,
+      "sender": {
+        "email": "goolgool@gmail.com",
+        "name": "goolgool",
+        "id": 3
+      },
+      "receiver": {
+        "email": "bruno@gmail.com",
+        "name": "bruno",
+        "id": 2
+      },
+      "message": "so much pain",
+      "timestamp": 1682655173449,
+      "id": 15
     }
   ]
 }
