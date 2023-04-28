@@ -40,22 +40,21 @@
       "id": 1
     },
     {
-      "participants": "newardevil@gmail.com-goolgool@gmail.com",
+      "participants": "goolgool@gmail.com-newardevil@gmail.com",
       "users": [
+        {
+          "email": "goolgool@gmail.com",
+          "name": "goolgool",
+          "id": 3
+        },
         {
           "email": "newardevil@gmail.com",
           "name": "ronee",
           "id": 1
-        },
-        {
-          "email": "goolgool@gmail.com",
-          "password": "$2a$10$.jmHe.PkxXABsUsuFSwOzeX1jPPny72bI5/00Tp8CL7HSzKezgBm.",
-          "name": "goolgool",
-          "id": 3
         }
       ],
-      "message": "where are you now",
-      "timestamp": 1682602725319,
+      "message": "outside",
+      "timestamp": 1682606049510,
       "id": 2
     },
     {
@@ -197,6 +196,22 @@
       "message": "yummi",
       "timestamp": 1682602835131,
       "id": 7
+    },
+    {
+      "conversationId": 2,
+      "sender": {
+        "email": "goolgool@gmail.com",
+        "name": "goolgool",
+        "id": 3
+      },
+      "receiver": {
+        "email": "newardevil@gmail.com",
+        "name": "ronee",
+        "id": 1
+      },
+      "message": "outside",
+      "timestamp": 1682606049510,
+      "id": 8
     }
   ]
 }
